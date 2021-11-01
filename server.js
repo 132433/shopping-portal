@@ -44,7 +44,7 @@ process.argv.forEach(function (val, index, array) {
   }
 });
 
-/* Mount API endpoints */
+/* Mount API endpoints checking*/
 app.use(cart);
 app.use(catalogue);
 app.use(orders);
